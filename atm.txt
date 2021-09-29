@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class atm {
+
+	public static void main(String[] args) {
+
+
+	Scanner in = new Scanner(System.in);
+	System.out.println("Please enter number of trucks:");
+
+	int totaltrucks = in.nextInt();
+	int earned= 3000 * totaltrucks;
+	int paidexp = totaltrucks * (1000 + 500 + 100);
+	int profit = earned - paidexp ;
+
+	System.out.println("total trucks are  " + totaltrucks + " you have earned " + earned);
+	System.out.println("expenses paid: " + paidexp);
+	System.out.println("profit: " + profit);	
+
+}
+		
+
+	
+}
